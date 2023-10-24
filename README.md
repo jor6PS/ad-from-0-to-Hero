@@ -1,10 +1,4 @@
 # **Table of Contents**
-
-- [Intro](#intro)
-  - [GitLab](#gitlab)
-- [Doctoc: Generador de índice para Markdown](#doctoc-generador-de-%C3%ADndice-para-markdown)
-  - [Instalación](#instalaci%C3%B3n)
-  - [Uso](#uso)
   
 - RECONOCIMIENTO
   - Sin credenciales
