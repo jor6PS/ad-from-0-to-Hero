@@ -1,9 +1,4 @@
-#Video list null y anonymous access
-
-Referencia vid
-Referencia vid2
-
-#Comandos
+# List null y anonymous access and shares
 
 ```
 #Crackmapexec enumera null sesions
@@ -17,13 +12,14 @@ poetry run crackmapexec smb <rango ip> -u '' -p '' --shares
 poetry run crackmapexec smb <rango ip> -u 'a' -p '' --shares
 ```
 
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/list_guest_access_on_smb_share/vid.gif?raw=true "Enumerando sesiones nulas ya anonimas con crackmapexec")
 
-# Video enum4linux-ng
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/list_guest_access_on_smb_share/vid2.gif?raw=true "Obteniendo los shares abiertos sin auteniticacion con crackmapexec")
 
-Referencia vid3
-
-#Comandos
+# Enumerando usuarios full, enum4linux-ng
 
 ```
 enum4linux-ng.py -As <target> -oY <output>
 ```
+
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/list_guest_access_on_smb_share/vid3.gif?raw=true "Enumerando usuarios full")

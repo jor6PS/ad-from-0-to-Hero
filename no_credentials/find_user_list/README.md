@@ -1,8 +1,4 @@
-# Video enumerando usuarios
-
-Referencia vid1
-
-#Comandos
+# Enumerando usuarios
 
 ```
 #Enumerar solo usaurios con enum4linux
@@ -15,14 +11,4 @@ net rpc group members 'Domain Users' -W '<nombre dominio completo>' -I '<ip>' -U
 poetry run crackmapexec smb <rango ip> --users
 ```
 
-
-
-# Video enum4linux-ng
-
-Referencia vid2
-
-#Comandos
-
-```
-enum4linux-ng.py -As <target> -oY <output>
-```
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/find_user_list/vid.gif?raw=true "Enumerando usuarios con enum4linux, net rpc y crackmapexec")

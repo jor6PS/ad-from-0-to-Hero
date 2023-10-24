@@ -1,8 +1,4 @@
-# VIDEO ESCANEO DE RED
-
-Referencia vid
-
-#COMANDOS
+# ESCANEO DE RED
 
 ```
 #Con Crackmapexec, instalado desde el repositorio de github
@@ -22,5 +18,6 @@ nmap -Pn -sC -sV -oA <output> <ranog ip>
 
 #Nmap escaneo full
 nmap -Pn -p- -sC -sV -oA <output> <ranog ip>
-
 ```
+
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/scan_network/vid.gif?raw=true "Escaneando la red con Nmap")
