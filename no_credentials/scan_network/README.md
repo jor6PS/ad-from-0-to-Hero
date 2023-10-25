@@ -1,4 +1,4 @@
-# ESCANEO DE RED
+# ESCANEO DE RED SMB y NMAP
 
 ```
 #Con Crackmapexec, instalado desde el repositorio de github
@@ -20,4 +20,13 @@ nmap -Pn -sC -sV -oA <output> <ranog ip>
 nmap -Pn -p- -sC -sV -oA <output> <ranog ip>
 ```
 
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/scan_network/vid.gif?raw=true "Escaneando la red con Nmap")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/scan_network/vid.gif?raw=true "Escaneando la red con crackma y Nmap")
+
+# ESCANEO DE RED ICMP-SCAN
+
+```
+# Herramienta de escaneo ICMP con soporte multi hilo, guarda el resultao en un txt
+python icm-scan.py -r <rango ip> -t <hilos>
+```
+
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/scan_network/vid2.gif?raw=true "Escaneando la red con icmp-scan")
