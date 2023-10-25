@@ -1,15 +1,18 @@
 # **Table of Contents**
   
-- RECONOCIMIENTO
-  - Sin credenciales
+- **RECONOCIMIENTO**
+  - *Sin credenciales*
     - [Escaneo de red](no_credentials/scan_network/): Nmap, crackmapexec e ICMP-SCAN
-    - [Listado de accesos sin credenciales y carpetas compartidas](no_credentials/list_guest_access_on_smb_share/): enum4linux y crackmapexec
-    - [Listar usuarios](no_credentials/find_user_list/): Enum4linux, net rpc y Crackmapexec
-    - [Localizar ip de DC](no_credentials/find_dc_ip/): NSLookup
-    - [Enmerar ldap](no_credentials/enumerate_ldap/): Nmap
-  - Con usuario, sin contraseña
-    - [ASEREPRoast](user_but_no_credentials/ASREPRoast/): GetNPUsers.py y Crackmapexec
-    - [Password spray](user_but_no_credentials/password_spray/): Sprayhound y Crackmapexec
-    - [Crackeo de contraseñas](user_but_no_credentials/crack_passwords/): Name-thath-hash y hashcat
-  - Credenciales válidas
-    - [Política de contraseñas](valid_credentials/pass_pol/): Crackmapexec
+    - [Listado de accesos sin credenciales y carpetas compartidas](no_credentials/list_guest_access_on_smb_share/): _enum4linux  crackmapexec_
+    - [Listar usuarios](no_credentials/find_user_list/): _Enum4linux, net rpc, Crackmapexec_
+    - [Localizar ip de DC](no_credentials/find_dc_ip/): _NSLookup_
+    - [Enmerar ldap](no_credentials/enumerate_ldap/): _Nmap_
+  - *Con usuario, sin contraseña*
+    - [ASEREPRoast](user_but_no_credentials/ASREPRoast/): _GetNPUsers.py impaket Crackmapexec_
+    - [Password spray](user_but_no_credentials/password_spray/): _Sprayhound Crackmapexec_
+    - [Crackeo de contraseñas](user_but_no_credentials/crack_passwords/): _Name-thath-hash hashcat_
+  - *Credenciales válidas*
+    - [Política de contraseñas](valid_credentials/pass_pol/): _Crackmapexec_
+    - [Obtener todos los usuarios](valid_credentials/get_all_users/): _GetADUsers.py impaket_
+    - [kerberoasting](valid_credentials/kerberoasting/): _getusersspn.py impaket crackmpexec name-that-hash hashcat_
+    - [Comandos útiles para recoger info del dominio](valid_credentials/useful_domain_info/): _ldapsearch_
