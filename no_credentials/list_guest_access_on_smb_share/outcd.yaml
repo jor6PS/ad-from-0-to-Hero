@@ -1,0 +1,37 @@
+target:
+  host: 192.168.56.11
+credentials:
+  auth_method: 'null'
+  user: ''
+  password: ''
+  domain: ''
+  ticket_file: ''
+  nthash: ''
+  random_user: zhkcyggh
+listeners:
+  LDAP:
+    port: 389
+    accessible: true
+  LDAPS:
+    port: 636
+    accessible: true
+  SMB:
+    port: 445
+    accessible: true
+  SMB over NetBIOS:
+    port: 139
+    accessible: true
+is_parent_dc: true
+is_child_dc: false
+long_domain: sevenkingdoms.local
+smb_dialects:
+  Supported dialects:
+    SMB 1.0: false
+    SMB 2.02: true
+    SMB 2.1: true
+    SMB 3.0: true
+    SMB 3.1.1: true
+  Preferred dialect: SMB 3.0
+  SMB1 only: false
+  SMB signing required: true
+errors: {}

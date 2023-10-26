@@ -19,7 +19,7 @@ poetry run crackmapexec smb <rango ip> -u 'a' -p '' --shares
 # Enumerando usuarios full, enum4linux-ng
 
 ```
-enum4linux-ng.py -As <target> -oY <output>
+enum4linux-ng.py -As <target> -oY <output> -t <timeout en segundos>
 ```
 
 ![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/list_guest_access_on_smb_share/vid3.gif?raw=true "Enumerando usuarios full")
