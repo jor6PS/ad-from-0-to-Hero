@@ -1,6 +1,6 @@
 # Enseñando la ip del DC
 
-```
+```Bash
 nslookup -type=SRV _ldap._tcp.dc._msdcs.<nombre dominio completo> <rango ip>
 ```
 

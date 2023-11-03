@@ -1,6 +1,6 @@
 # Obteniendo información ldap
 
-```
+```Bash
 map -Pn -sV --script "ldap* and not brute" -p389 <rango ip>
 ```
 

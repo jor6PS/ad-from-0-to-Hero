@@ -1,6 +1,6 @@
 # Obtención de todos los usuarios del dominio
 
-```
+```Bash
 # Obtener todos los usuarios con impaket
 python /usr/share/doc/python3-impacket/examples/GetADUsers.py -all <nombre dominio completo>/<usuario>:<contraseña> > users_full.txt
 

@@ -1,6 +1,6 @@
 # List null y anonymous access and shares
 
-```
+```BAsh
 #Crackmapexec enumera null sesions
 poetry run crackmapexec smb <rango ip> -u '' -p ''
 
@@ -18,7 +18,7 @@ poetry run crackmapexec smb <rango ip> -u 'a' -p '' --shares
 
 # Enumerando usuarios full, enum4linux-ng
 
-```
+```Bash
 enum4linux-ng.py -As <target> -oY <output> -t <timeout en segundos>
 ```
 

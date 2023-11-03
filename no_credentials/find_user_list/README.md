@@ -1,6 +1,6 @@
 # Enumerando usuarios
 
-```
+```Bash
 #Enumerar solo usaurios con enum4linux
 enum4linux -U <ip> | grep 'Users'
 

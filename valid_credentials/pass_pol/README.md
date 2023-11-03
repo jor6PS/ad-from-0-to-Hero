@@ -1,6 +1,6 @@
 # Obterner política de contraseñas
 
-```
+```Bash
 poetry run crackmapexec smb <direccion ip> -u <usuario> -p <contraseña> --pass-pol
 ```
 

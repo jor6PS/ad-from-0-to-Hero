@@ -1,6 +1,6 @@
 # BLOODHOuND
 
-```
+```Bash
 # Query para extraer la información del AD (primero incluir el DNS en la configuración de red). Obtener el script de Github: https://github.com/dirkjanm/BloodHound.py
 python bloodhound.py --zip -c All -d <nombre completo de dominio> -u <user>@<nombre completo de dominio> -p <cpass> -dc <nombre dns del DC>
 
@@ -9,7 +9,7 @@ python bloodhound.py --zip -c All -d <nombre completo de dominio> -u <user>@<nom
 ![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/bloodhound/vid.gif?raw=true "Obtener datos del AD")
 
 
-```
+```Bash
 # Ejecutar bloodhound y cargar datos
 
 # Ejecutar neo4j en una terminal
@@ -20,7 +20,7 @@ bloodhound
 ![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/bloodhound/vid2.gif?raw=true "Cargar datos en bloodhound")
 
 
-```
+```Bash
 # Consultas Bloodhound
 
 # Show all domains and computer

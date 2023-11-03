@@ -1,6 +1,6 @@
 # Crackeo de contraseñas
 
-```
+```Bash
 # Identificar el tipo de hash y el módulo par hashcat
 name-that-hash --file <hash>
 

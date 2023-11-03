@@ -1,6 +1,6 @@
 # ESCANEO DE RED SMB y NMAP
 
-```
+```Bash
 #Con Crackmapexec, instalado desde el repositorio de github
 poetry run crackmapexec smb <rango ip>
 
@@ -24,7 +24,7 @@ nmap -Pn -p- -sC -sV -oA <output> <ranog ip>
 
 # ESCANEO DE RED ICMP-SCAN
 
-```
+```Bash
 # Herramienta de escaneo ICMP con soporte multi hilo, guarda el resultao en un txt
 python icm-scan.py -r <rango ip> -t <hilos>
 ```

@@ -1,6 +1,6 @@
 # Comandos útilies para obtener información del dominio
 
-```
+```Bash
 # List all users
 ldapsearch -H ldap://<ldap ip> -D "<user>@<nombre dominio completo>" -w <pass> -b 'DC=<subdomain>,DC=<domain>,DC=<domain extension>' "(&(objectCategory=person)(objectClass=user))" | grep 'distinguishedName:'
 # List of all kerberoastables users
