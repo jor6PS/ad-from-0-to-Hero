@@ -2,7 +2,8 @@
   
 - **RECONOCIMIENTO**
   - **Sin credenciales**
-    - [Escaneo de red](no_credentials/scan_network/): _Nmap | Crackmapexec | ICMP-SCAN_
+    - [Escaneo de red](no_credentials/scan_network/): _Nmap | Netdiscover | Crackmapexec | ICMP-SCAN_
+    - [Recopilación de información web](no_credentials/scan_network/): _EyeWitness_
     - [Listado de accesos sin credenciales y carpetas compartidas](no_credentials/list_guest_access_on_smb_share/): _Enum4linux-ng | Crackmapexec_
     - [Listar usuarios](no_credentials/find_user_list/): _Enum4linux | net rpc | Crackmapexec_
     - [Localizar ip de DC](no_credentials/find_dc_ip/): _NSLookup_

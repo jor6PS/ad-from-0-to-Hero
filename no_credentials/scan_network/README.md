@@ -30,3 +30,18 @@ python icm-scan.py -r <rango ip> -t <hilos>
 ```
 
 ![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/scan_network/vid2.gif?raw=true "Escaneando la red con icmp-scan")
+
+# Obteniendo hosts y servicios abiertos con escaneo pasivo con Netdiscover
+
+```Bash
+netdiscover -i <interfaz de red>
+```
+
+# Obteniendo servicios web con EyeWitness
+
+```Bash
+# Instalar EyeWitness desde su repositorio de Github: https://github.com/RedSiege/EyeWitness
+python EyeWitness.py -f <filename> --timeout <optionaltimeout>
+python EyeWitness.py -x <xml nmap>
+```
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/scan_network/vid3.gif?raw=true "EyeWitness")

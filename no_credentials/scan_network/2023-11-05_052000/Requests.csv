@@ -1,0 +1,7 @@
+Protocol,Port,Domain,Request Status,Screenshot Path, Source Path
+http,80,10.147.18.10,Successful,/home/kali/2023-11-05_052000/screens/http.10.147.18.10.png,/home/kali/2023-11-05_052000/source/http.10.147.18.10.txt
+https,636,10.147.18.10,BadStatus,/home/kali/2023-11-05_052000/screens/https.10.147.18.10.636.png,/home/kali/2023-11-05_052000/source/https.10.147.18.10.636.txt
+https,3269,10.147.18.10,BadStatus,/home/kali/2023-11-05_052000/screens/https.10.147.18.10.3269.png,/home/kali/2023-11-05_052000/source/https.10.147.18.10.3269.txt
+https,636,10.147.18.11,BadStatus,/home/kali/2023-11-05_052000/screens/https.10.147.18.11.636.png,/home/kali/2023-11-05_052000/source/https.10.147.18.11.636.txt
+https,3269,10.147.18.11,Timeout,/home/kali/2023-11-05_052000/screens/https.10.147.18.11.3269.png,/home/kali/2023-11-05_052000/source/https.10.147.18.11.3269.txt
+http,80,10.147.18.22,Successful,/home/kali/2023-11-05_052000/screens/http.10.147.18.22.png,/home/kali/2023-11-05_052000/source/http.10.147.18.22.txt
