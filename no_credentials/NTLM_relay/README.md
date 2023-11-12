@@ -16,7 +16,7 @@ impacket-ntlmrelayx -tf <output equipos relay> -of netntlm -smb2support -socks
 ```
 
 ![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/NTLM_relay/vid2.gif?raw=true "Deshabilitar SMB y HHTP Ejecutar responder y ntlmrelayx")
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/NTLM_relay/vid3.gif?raw=true "Capturar autenticaciones y guardarlas en socks)
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/NTLM_relay/vid3.gif?raw=true "Capturar autenticaciones y guardarlas en socks")
 
 ```Bash
 # Primero modificar el puerto de la última línea de proxychains para que quede asi:
