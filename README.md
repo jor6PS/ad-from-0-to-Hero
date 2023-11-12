@@ -10,6 +10,7 @@
   - [Listar usuarios](no_credentials/find_user_list/): _Enum4linux | net rpc | Crackmapexec_
   - [Responder](no_credentials/responder/): _Responder_
   - [NTLM_relay](no_credentials/NTLM_relay/): _Crackmapexec | Responder | ntlmrelayx | Proxychains | Impacket-secretsdump | lsassy | DonPAPI | impacket-smbclient | impacket-smbexec_
+  - [PetitPotam](no_credentials/petitpotam/): _Crackmapexec | ntlmrelayx | petitpotam_
 - **Con usuario, sin contraseña**
   - [ASEREPRoast](user_but_no_credentials/ASREPRoast/): _GetNPUsers.py impaket | Crackmapexec_
   - [Password spray](user_but_no_credentials/password_spray/): _Sprayhound | Crackmapexec_
