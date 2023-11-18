@@ -28,4 +28,4 @@ Resultado: (para ver las sesiones escribir "socks")
 
 Utilizar las sesiones con proxychain como se muestra en elste punto:
 
-[NTLM Relay](../no_credentials/NTLM_relay//README.md#Redirigir-las-credenciales)
+[NTLM Relay](/no_credentials/NTLM_relay//README.md#Redirigir-las-credenciales)
