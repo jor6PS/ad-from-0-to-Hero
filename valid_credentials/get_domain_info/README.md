@@ -18,7 +18,7 @@ cat users_full.txt| grep -E 'name|description'
 
 ```
 
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/get_domain_info/full_users.png?raw=true "Obteniendo toda la info")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/get_domain_info/users.png?raw=true "Obteniendo toda la info")
 
 
 # Otros comandos útiles
