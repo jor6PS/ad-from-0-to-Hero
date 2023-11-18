@@ -17,7 +17,7 @@
   - [Crackeo de contraseñas](user_but_no_credentials/crack_passwords/): _Name-thath-hash | Hashcat_
 - **Credenciales válidas**
   - [Política de contraseñas](valid_credentials/pass_pol/): _Crackmapexec_
-  - [Obtener información del dominio](valid_credentials/get_all_users/): _GetADUsers.py | ldapsearch_
+  - [Obtener información del dominio](valid_credentials/get_domain_info/): _GetADUsers.py | ldapsearch_
   - [kerberoasting](valid_credentials/kerberoasting/): _GetUsersSPN.py impaket crackmpexec | name-that-hash hashcat_
   - [Get DNS IP](valid_credentials/get_dns/): _Adidnsdump_
   - [Bloodhound get AD info](valid_credentials/bloodhound/): _Bloodhound_
