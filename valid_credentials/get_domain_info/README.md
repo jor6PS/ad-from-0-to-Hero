@@ -1,4 +1,27 @@
-# Comandos útilies para obtener información del dominio
+# Obtenicion solo de usuarios
+
+```Bash
+# Obtener todos los usuarios con impaket
+GetADUsers.py -all <nombre dominio completo>/<usuario>:<contraseña> > users.txt
+
+```
+
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/get_all_users/users.gif?raw=true "Obteniendo todos los usuarios del dominio")
+
+# Obtenicion toda la informacion de suarios
+
+```Bash
+# Obtener toda la información de los usuarios
+ldapsearch -H ldap://<DC IP> -D "<user>@<domain>" -w <pass> -b 'DC=<domain>,DC=<extension>' "(&(objectCategory=person)(objectClass=user))" > users_full.txt
+# Después usar grp para identificar posibles credenciales en la descripcion
+cat users_full.txt| grep -E 'name|description'
+
+```
+
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/get_all_users/full_users.png?raw=true "Obteniendo toda la info")
+
+
+# Otros comandos útiles
 
 ```Bash
 # List all users
