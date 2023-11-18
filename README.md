@@ -27,10 +27,10 @@
     - [Printnightmare](valid_credentials/printnightmare/): _CVE-2021-1675_
   - **Permisos de admin**
     - [Gather multiple windows creds](valid_credentials/get_windows_creds/README.md#MULTIPLES-CREDS): _secretsdump | DonPAPI_
-    - [Gather local windows creds](valid_credentials/get_windows_creds/README.md#SAM): _Crackmapexec_
-    - [Gather sesiones actuales windows creds](valid_credentials/get_windows_creds/README.md#LSASS): _Crackmapexec_
-    - [Gather cache windows creds](valid_credentials/get_windows_creds/README.md#LSA): _Crackmapexec_
-    - [Gather DC DDBB windows creds](valid_credentials/get_windows_creds/README.md#NTDS): _Crackmapexec_
+    - [Gather local windows creds](valid_credentials/get_windows_creds/README.md#SAM): _SAM:Crackmapexec_
+    - [Gather sesiones actuales windows creds](valid_credentials/get_windows_creds/README.md#LSASS): _LSASS:Crackmapexec_
+    - [Gather cache windows creds](valid_credentials/get_windows_creds/README.md#LSA): _LSA:Crackmapexec_
+    - [Gather DC DDBB windows creds](valid_credentials/get_windows_creds/README.md#NTDS): _NTDS:Crackmapexec_
 - **UTILIDADES**
   - [HTTP server](utilities/Enable_servers_to_share_load_or_upload_content/): _http.server_
   - [SMB server](utilities/Enable_servers_to_share_load_or_upload_content/): _impacket-smbserver_
