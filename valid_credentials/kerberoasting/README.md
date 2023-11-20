@@ -9,4 +9,4 @@ crackmapexec ldap <IP ldap> -u '<user>' -p '<pass>' -d <nombre dominio completo>
 
 ```
 
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/kerberoasting/vid.gif?raw=true "Obteniendo hashes de usuarios con SPN habilitado")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/kerberoasting/files/vid.gif?raw=true "Obteniendo hashes de usuarios con SPN habilitado")

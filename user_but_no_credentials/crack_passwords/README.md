@@ -8,4 +8,4 @@ hashcat -m <tipo de hash> <hash> <diccionario>
 
 ```
 
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/user_but_no_credentials/crack_passwords/vid.gif?raw=true "Crackeo de contraseñas")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/user_but_no_credentials/crack_passwords/files/vid.gif?raw=true "Crackeo de contraseñas")

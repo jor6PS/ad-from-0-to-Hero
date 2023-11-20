@@ -6,7 +6,7 @@ python bloodhound.py --zip -c All -d <nombre completo de dominio> -u <user>@<nom
 
 ```
 
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/bloodhound/vid.gif?raw=true "Obtener datos del AD")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/bloodhound/files/vid.gif?raw=true "Obtener datos del AD")
 
 
 ```Bash
@@ -17,7 +17,7 @@ sudo neo4j console
 # Ejecutar bloodhound en otra terminal
 bloodhound
 ```
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/bloodhound/vid2.gif?raw=true "Cargar datos en bloodhound")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/bloodhound/files/vid2.gif?raw=true "Cargar datos en bloodhound")
 
 
 ```Bash
@@ -33,4 +33,4 @@ MATCH q=(d:Domain)-[r:Contains*1..]->(n:Group)<-[s:MemberOf]-(u:User) RETURN q
 MATCH p=(u:User)-[r1]->(n) WHERE r1.isacl=true and not tolower(u.name) contains 'vagrant' RETURN p
 ```
 
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/bloodhound/vid3.gif?raw=true "Cargar datos en bloodhound")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/bloodhound/files/vid3.gif?raw=true "Cargar datos en bloodhound")

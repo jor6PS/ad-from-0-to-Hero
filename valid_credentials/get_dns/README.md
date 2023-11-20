@@ -6,4 +6,4 @@ python adidnsdump/dnsdump.py -u '<nombre completo dominio>\<user> -p '<pass>' <n
 
 ```
 
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/get_dns/vid.gif?raw=true "Obteniendo el DNS")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/get_dns/files/vid.gif?raw=true "Obteniendo el DNS")

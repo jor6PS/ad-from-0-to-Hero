@@ -6,7 +6,7 @@ GetADUsers.py -all <nombre dominio completo>/<usuario>:<contraseña> > users.txt
 
 ```
 
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/get_domain_info/users.gif?raw=true "Obteniendo todos los usuarios del dominio")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/get_domain_info/files/users.gif?raw=true "Obteniendo todos los usuarios del dominio")
 
 # Obtenicion toda la informacion de suarios
 
@@ -18,7 +18,7 @@ cat users_full.txt| grep -E 'name|description'
 
 ```
 
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/get_domain_info/users.png?raw=true "Obteniendo toda la info")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/get_domain_info/files/users.png?raw=true "Obteniendo toda la info")
 
 
 # Otros comandos útiles
@@ -55,4 +55,4 @@ ldapsearch -H ldap://<ldap ip> -D "<user>@<nombre dominio completo>" -w <pass> -
 
 ```
 
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/get_domain_info/vid.gif?raw=true "Obteniendo info del dominio")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/get_domain_info/files/vid.gif?raw=true "Obteniendo info del dominio")

@@ -20,7 +20,7 @@ nmap -Pn -sC -sV -oA <output> <ranog ip>
 nmap -Pn -p- -sC -sV -oA <output> <ranog ip>
 ```
 
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/scan_network/vid.gif?raw=true "Escaneando la red con crackma y Nmap")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/scan_network/files/vid.gif?raw=true "Escaneando la red con crackma y Nmap")
 
 # ESCANEO DE RED ICMP-SCAN
 
@@ -29,7 +29,7 @@ nmap -Pn -p- -sC -sV -oA <output> <ranog ip>
 python icm-scan.py -r <rango ip> -t <hilos>
 ```
 
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/scan_network/vid2.gif?raw=true "Escaneando la red con icmp-scan")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/scan_network/files/vid2.gif?raw=true "Escaneando la red con icmp-scan")
 
 # Obteniendo hosts y servicios abiertos con escaneo pasivo con Netdiscover
 
@@ -44,4 +44,4 @@ netdiscover -i <interfaz de red>
 python EyeWitness.py -f <filename> --timeout <optionaltimeout>
 python EyeWitness.py -x <xml nmap>
 ```
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/scan_network/vid3.gif?raw=true "EyeWitness")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/no_credentials/scan_network/files/vid3.gif?raw=true "EyeWitness")

