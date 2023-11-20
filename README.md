@@ -6,8 +6,8 @@
   - [Localizar ip de DC](no_credentials/find_dc_ip/): _NSLookup_
   - [Enumerar ldap](no_credentials/enumerate_ldap/): _Nmap_
 - **Sin credenciales**
-  - [Listado de accesos sin credenciales y carpetas compartidas](no_credentials/list_guest_access_on_smb_share/): _Enum4linux-ng | Crackmapexec_
-  - [Listar usuarios](no_credentials/find_user_list/): _Enum4linux | net rpc | Crackmapexec_
+  - [Accesos sin credenciales (Null Sesion y anonimo) y carpetas compartidas](no_credentials/list_guest_access_on_smb_share/): _Enum4linux-ng | Crackmapexec_
+  - [Obtener solo usuarios](no_credentials/find_user_list/): _Enum4linux-ng | net rpc | Crackmapexec_
   - [Responder](no_credentials/responder/): _Responder_
   - [NTLM_relay](no_credentials/NTLM_relay/): _Crackmapexec | Responder | ntlmrelayx | Proxychains | Impacket-secretsdump | lsassy | DonPAPI | impacket-smbclient | impacket-smbexec_
   - [PetitPotam](no_credentials/petitpotam/): _Crackmapexec | ntlmrelayx | petitpotam_
