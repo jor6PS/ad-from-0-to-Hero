@@ -1,5 +1,7 @@
 # PrintNighmare
 
+[Enlace explicado](https://mayfly277.github.io/posts/GOADv2-pwning-part5/#printnightmare)
+
 Para este ataque se va a aprovechar una vulnerabilidad en el servicio spooler de Windows para añadir un usuario con permisos de administrador. Tener en cuenta que para no dejar rastro después haya que eliminar el usuario y los dll subidos en el equipo víctima
 
 ```Bash

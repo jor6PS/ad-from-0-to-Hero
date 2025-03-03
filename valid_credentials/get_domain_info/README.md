@@ -56,3 +56,7 @@ ldapsearch -H ldap://<ldap ip> -D "<user>@<nombre dominio completo>" -w <pass> -
 ```
 
 ![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/get_domain_info/files/vid.gif?raw=true "Obteniendo info del dominio")
+
+# Comandos utiles
+
+[Web externa con queries](https://podalirius.net/en/active-directory/useful-ldap-queries-for-windows-active-directory-pentesting/)

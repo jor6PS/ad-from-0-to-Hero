@@ -5,11 +5,13 @@
   - [Recopilación de información web](no_credentials/scan_network/): _EyeWitness_
   - [Localizar ip de DC](no_credentials/find_dc_ip/): _NSLookup_
   - [Enumerar ldap](no_credentials/enumerate_ldap/): _Nmap_
+  - [Set the DNS](no_credentials/dnsHosts/): _hosts_
 - **Sin credenciales**
   - [Accesos sin credenciales (Null Sesion y anonimo) y carpetas compartidas](no_credentials/list_guest_access_on_smb_share/): _Enum4linux-ng | Crackmapexec_
   - [Obtener solo usuarios](no_credentials/find_user_list/): _Enum4linux-ng | net rpc | Crackmapexec_
   - [Responder](no_credentials/responder/): _Responder_
   - [NTLM_relay](no_credentials/NTLM_relay/): _Crackmapexec | Responder | ntlmrelayx | Proxychains | Impacket-secretsdump | lsassy | DonPAPI | impacket-smbclient | impacket-smbexec_
+  - [Mitm6 + ntlmrelayx to ldap](https://mayfly277.github.io/posts/GOADv2-pwning-part4/#mitm6--ntlmrelayx-to-ldap): _mitm6 | ntlmrelayx_
   - [PetitPotam](no_credentials/petitpotam/): _Crackmapexec | ntlmrelayx | petitpotam_
   - [ADCS ESC8](no_credentials/adcs_ESC8/): _openssl | ntlmrelayx | certipy | petitpotam | secretsdump | gettgtpkinit_
 - **Con usuario, sin contraseña**
@@ -19,9 +21,12 @@
 - **Credenciales válidas**
   - [Política de contraseñas](valid_credentials/pass_pol/): _Crackmapexec_
   - [Obtener información del dominio](valid_credentials/get_domain_info/): _GetADUsers.py | ldapsearch_
+  - [LDAP queries](valid_credentials/get_domain_info/README.md#COMANDOS-UTILES)
   - [kerberoasting](valid_credentials/kerberoasting/): _GetUsersSPN.py impaket crackmpexec | name-that-hash hashcat_
+  - [Coerced auth smb + ntlmrelayx](https://mayfly277.github.io/posts/GOADv2-pwning-part4/#coerced-auth-smb--ntlmrelayx-to-ldaps-with-drop-the-mic): _ntlmrelayx | coercer_
   - [Get DNS IP](valid_credentials/get_dns/): _Adidnsdump_
   - [Bloodhound get AD info](valid_credentials/bloodhound/): _Bloodhound_
+  - [ADCS](valid_credentials/ADCS/): _ESC1 | ESC2 | ESC3 | ESC4 | ESC5_
   - **Vulns / Exploit**
     - [Nopac](valid_credentials/nopac/): _addcomputer | addspn | renameMachine | getTGT | getST | secretsdump_
     - [Printnightmare](valid_credentials/printnightmare/): _CVE-2021-1675_
@@ -35,3 +40,5 @@
   - [HTTP server](utilities/Enable_servers_to_share_load_or_upload_content/): _http.server_
   - [SMB server](utilities/Enable_servers_to_share_load_or_upload_content/): _impacket-smbserver_
   - [Añadir/Eliminar usuarios](utilities/add_remove_users): _impacket-wmiexec | net user_
+  - [Entorno de hacking](https://exegol.readthedocs.io/en/latest/getting-started/install.html): _exegol_
+  - [Name that hash](https://www.kali.org/tools/name-that-hash/): _name-that-hash_

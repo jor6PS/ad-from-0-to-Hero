@@ -6,6 +6,8 @@ Para este ataque se va a añadir un ordenador, borrar el SPN de ese ordenador, r
 ```Bash
 # Comprobamos que el equipo es vulnerable a nopac
 poetry run crackmapexec smb <ip del DC> -u <user> -p <pass> -M nopac
+
+cme ldap winterfell.north.sevenkingdoms.local -u jon.snow -p iknownothing -d north.sevenkingdoms.local -M MAQ
 ```
 
 ![Alt text](https://github.com/jor6PS/ad-from-0-to-Hero/blob/master/valid_credentials/nopac/files/nopac1.png?raw=true "Check NoPac")

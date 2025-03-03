@@ -3,6 +3,10 @@
 ```Bash
 # Query para extraer la información del AD (primero incluir el DNS en la configuración de red). Obtener el script de Github: https://github.com/dirkjanm/BloodHound.py
 python bloodhound.py --zip -c All -d <nombre completo de dominio> -u <user>@<nombre completo de dominio> -p <cpass> -dc <nombre dns del DC>
+# DC del usuario comprometido
+bloodhound-python --zip -c All -d north.sevenkingdoms.local -u hodor@north.sevenkingdoms.local -p hodor -ns 10.4.10.10
+# DC de otro dominio al que el usuario tiene permisos por confianza entre dominios
+bloodhound-python --zip -c All -d sevenkingdoms.local -u hodor@north.sevenkingdoms.local -p hodor -ns 10.4.10.10
 
 ```
 
