@@ -26,7 +26,7 @@
   - [Coerced auth smb + ntlmrelayx](https://mayfly277.github.io/posts/GOADv2-pwning-part4/#coerced-auth-smb--ntlmrelayx-to-ldaps-with-drop-the-mic): _ntlmrelayx | coercer_
   - [Get DNS IP](valid_credentials/get_dns/): _Adidnsdump_
   - [Bloodhound get AD info](valid_credentials/bloodhound/): _Bloodhound_
-  - [ADCS](valid_credentials/ADCS/): _ESC1 | ESC2 | ESC3 | ESC4 | ESC5_
+  - [ADCS](valid_credentials/ADCS/): _certipy | ESC1 | ESC2 | ESC3 | ESC4 | ESC5_
   - **Vulns / Exploit**
     - [Nopac](valid_credentials/nopac/): _addcomputer | addspn | renameMachine | getTGT | getST | secretsdump_
     - [Printnightmare](valid_credentials/printnightmare/): _CVE-2021-1675_
